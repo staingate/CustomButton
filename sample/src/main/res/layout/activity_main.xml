@@ -1,0 +1,174 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:whilu="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="CustomImageButton"
+            android:layout_marginRight="20dp" />
+
+        <com.github.whilu.library.CustomImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:scaleType="fitCenter"
+            whilu:unpressed_src="@drawable/ic_btn_go_menu"
+            whilu:pressed_src="@drawable/ic_btn_go_menu_pressed" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="CustomImageButton"
+            android:layout_marginRight="20dp" />
+
+        <com.github.whilu.library.CustomButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Button"
+            whilu:shape_type="rectangle"
+            whilu:pressed_color="@color/pressed_color_s"
+            whilu:unpressed_color="@color/unpressed_color_s" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="With Round Corner"
+            android:layout_marginRight="20dp" />
+
+        <com.github.whilu.library.CustomButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Button"
+            whilu:shape_type="rectangle"
+            whilu:round_radius="10dp"
+            whilu:pressed_color="@color/pressed_color_s2"
+            whilu:unpressed_color="@color/unpressed_color_s2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Circle CustomButton"
+            android:layout_marginRight="20dp" />
+
+        <com.github.whilu.library.CustomButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Custom Button"
+            whilu:shape_type="circle"
+            whilu:pressed_color="@color/pressed_color_s3"
+            whilu:unpressed_color="@color/unpressed_color_s3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="CustomRippleButton"
+            android:layout_marginRight="20dp" />
+
+        <com.github.whilu.library.CustomRippleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom RippleButton"
+            whilu:ripple_color="@color/ripple_color_s"
+            whilu:ripple_duration="500"
+            whilu:shape_type="rectangle"
+            whilu:unpressed_color="@color/unpressed_color_s" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="With Round Corner"
+            android:layout_marginRight="20dp" />
+
+        <com.github.whilu.library.CustomRippleButton
+            android:id="@+id/btn_cusRippleBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom RippleButton"
+            whilu:ripple_color="@color/unpressed_color_s2"
+            whilu:ripple_duration="500"
+            whilu:shape_type="rectangle"
+            whilu:round_radius="10dp"
+            whilu:unpressed_color="@color/unpressed_color_s" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Circle CustomRippleButton"
+            android:layout_marginRight="20dp" />
+
+        <com.github.whilu.library.CustomRippleButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="Custom RippleButton"
+            android:textSize="9sp"
+            whilu:ripple_color="@color/unpressed_color_s3"
+            whilu:ripple_duration="1000"
+            whilu:shape_type="circle"
+            whilu:unpressed_color="@color/unpressed_color_s" />
+    </LinearLayout>
+
+</LinearLayout>

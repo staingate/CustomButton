@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="unpressed_color_s">#fff44336</color>
+    <color name="pressed_color_s">#ffd32f2f</color>
+    <color name="unpressed_color_s2">#ff3f51b5</color>
+    <color name="pressed_color_s2">#ff303f9f</color>
+    <color name="unpressed_color_s3">#ffffeb3b</color>
+    <color name="pressed_color_s3">#fffbc02d</color>
+    <color name="ripple_color_s">#ffeeeeee</color>
+    <color name="transparent_s">#00000000</color>
+</resources>
