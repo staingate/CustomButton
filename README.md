@@ -45,7 +45,8 @@ Then, you can easily use it:
 * `whilu:pressed_src` (the drawable when the ImageButton pressed)
 
 It looks like this:
-<img src="/screenshots/screenshot_1.gif" alt="screenshot_1" title="screenshot_1" />
+
+<img src="/screenshots/screenshot_1.gif" alt="screenshot_1" title="screenshot_1" />  
 
 2.CustomButton
 
@@ -67,14 +68,20 @@ It looks like this:
 * `whilu:unpressed_color` (the color before the Button pressed)
 
 It looks like this:
-No round corner
+
+No round corner  
+
 <img src="/screenshots/screenshot_2.gif" alt="screenshot_2" title="screenshot_2" />
-With round corner
-<img src="/screenshots/screenshot_3.gif" alt="screenshot_3" title="screenshot_3" />
+
+With round corner  
+
+<img src="/screenshots/screenshot_3.gif" alt="screenshot_3" title="screenshot_3" />  
 
 If you use CustomButton with `circle` shape,  you need to define an accurate value for `android:layout_width` and `android:layout_height`. Generally, they are equal.
-It looks like this:
-<img src="/screenshots/screenshot_4.gif" alt="screenshot_4" title="screenshot_4" />
+
+It looks like this:  
+
+<img src="/screenshots/screenshot_4.gif" alt="screenshot_4" title="screenshot_4" />  
 
 3.CustomRippleButton
 
@@ -97,14 +104,20 @@ It looks like this:
 * `whilu:round_radius` (the round corner radius of the Button)
 * `whilu:unpressed_color` (the color before the Button pressed)
 
-It looks like this:
-No round corner
-<img src="/screenshots/screenshot_5.gif" alt="screenshot_5" title="screenshot_5" />
-With round corner
-<img src="/screenshots/screenshot_6.gif" alt="screenshot_6" title="screenshot_6" />
+It looks like this:  
+
+No round corner  
+
+<img src="/screenshots/screenshot_5.gif" alt="screenshot_5" title="screenshot_5" />  
+
+With round corner  
+
+<img src="/screenshots/screenshot_6.gif" alt="screenshot_6" title="screenshot_6" />  
 
 If you use CustomRippleButton with `circle` shape,  you need to define an accurate value for `android:layout_width` and `android:layout_height`. Generally, they are equal.
-It looks like this:
+
+It looks like this:  
+
 <img src="/screenshots/screenshot_7.gif" alt="screenshot_7" title="screenshot_7" />
 
 
